@@ -30,10 +30,8 @@ gobackbar_btn.addEventListener("click", () => {
     moreinfobar_holder.classList.remove("moreinfobar-holder-active");
 
     setTimeout(() => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
     }, 750);
 
     setTimeout(() => {
