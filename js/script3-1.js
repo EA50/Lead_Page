@@ -30,6 +30,13 @@ gobackbar_btn.addEventListener("click", () => {
     moreinfobar_holder.classList.remove("moreinfobar-holder-active");
 
     setTimeout(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }, 750);
+
+    setTimeout(() => {
         gobackbar_btn.classList.add("goback-transdel-active");
     }, 750);
     
