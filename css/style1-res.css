@@ -1,0 +1,111 @@
+@media (max-width: 1980px) {
+    :root {
+        --font-proportion: 2.5;
+    }
+
+    .navbar-item {
+        width: 6.7rem;
+    }
+
+    .contact-btn-item-icon {
+        height: 25px;
+        width: 25px;
+    }
+    .contactbarlist {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 1124px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+
+    .navbar-item {
+        font-size: calc(8px * var(--font-proportion) / var(--decrease-proportion));
+        font-weight: var(--font-weight-2);
+    }
+
+    .modelbar-notif-interaction {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+}
+
+@media (max-width: 824px) {
+    :root {
+        --font-proportion: 2;
+    }
+}
+
+
+@media (max-width: 768px) {
+    :root {
+        --font-proportion: 2;
+    }
+
+    .navbar-item {
+        font-size: calc(8px * var(--font-proportion));
+        font-weight: var(--font-weight-2);
+    }
+
+    .contactbar {
+        top: 10%;
+    }
+
+    .contact-btns {
+        flex-direction: row;
+        height: fit-content;
+    }
+}
+
+
+@media (max-width: 580px) {
+    :root {
+        --font-proportion: 1.75;
+    }
+
+    .titlebar {
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .shortdescbar {
+        width: 100%;
+    }
+
+    .contactbarlist {
+        width: 15rem;
+        aspect-ratio: 3 / 5;
+    }
+
+    .contactbarlist-fb:nth-child(2),
+    .contactbarlist-in:nth-child(2),
+    .contactbarlist-email:nth-child(2),
+    .contactbarlist-discord:nth-child(2) {
+        gap: 0.5rem;
+    }
+
+    .fb-link,
+    .in-link,
+    .email-link,
+    .discord-name {
+        font-size: calc(7px * var(--font-proportion));
+        text-align: right;
+    }
+}

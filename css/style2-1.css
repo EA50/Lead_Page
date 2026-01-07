@@ -1,0 +1,138 @@
+
+
+.selectionlist-row-item.slriobj {
+    position: relative;
+
+    background-color: transparent;
+    background-size: 135%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+
+    overflow: hidden;
+}
+
+.selectionlist-row-item.slriobj:hover {
+    background-size: 165%;
+    background-color: #27245f;
+}
+
+.slriobj div {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    color: white;
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    text-align: center;
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+.slriobj:hover div {
+    opacity: 1;
+}
+
+/* Tree Climber */
+.row-2 .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/11.png');
+}
+
+/* Tumbler */
+.row-2 .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/12.png');
+}
+
+/* Umbrella */
+.row-2 .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/13.png');
+}
+
+/* Branch Trimmer */
+.row-cp + .selectionlist-row .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/14.png');
+}
+
+/* Conference Table */
+.row-cp +.selectionlist-row .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/15.png');
+}
+
+/* Stand Table */
+.row-cp + .selectionlist-row .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/16.png');
+}
+
+/* Row CM - Set 1 (P1-P4) */
+.row-cm + .selectionlist-row .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/17.png');
+}
+
+.row-cm + .selectionlist-row .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/18.png');
+}
+
+.row-cm + .selectionlist-row .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/19.png');
+}
+
+.row-cm + .selectionlist-row .selectionlist-row-item:nth-child(4) {
+    background-image: url('../assets/prev/1-/20.png');
+}
+
+/* Row CM - Set 2 (P5-P8) */
+.row-cm + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/21.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/22.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/23.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(4) {
+    background-image: url('../assets/prev/1-/24.png');
+}
+
+/* Row CM - Set 3 (P9-P12) */
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/25.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/26.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/27.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(4) {
+    background-image: url('../assets/prev/1-/28.png');
+}
+
+/* Row CM - Set 4 (P13-P16) */
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(1) {
+    background-image: url('../assets/prev/1-/29.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(2) {
+    background-image: url('../assets/prev/1-/30.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(3) {
+    background-image: url('../assets/prev/1-/31.png');
+}
+
+.row-cm + .selectionlist-row + .selectionlist-row + .selectionlist-row + .selectionlist-row .selectionlist-row-item:nth-child(4) {
+    background-image: url('../assets/prev/1-/32.png');
+}
+
+
