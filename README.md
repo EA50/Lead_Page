@@ -8,7 +8,9 @@
 #### The live design link showcases the model in a more CAD-like interface manner with more functionality including exploded view. 
 
 # Downloads | Live Design Link
-#### You can download the models directly from the 'models' folder; Click <>Code and Download ZIP.
+## Click <>Code and Download ZIP.
+#### Information about the designs can be downloaded (PDF) from the 'About Designs' folder.
+#### You can download the models directly from the 'models' folder.
 #### Make a request of the live design link (Fusion 360 link) of your chosen model. There you can download different file types of the model.
 
 # Contact
