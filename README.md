@@ -1,6 +1,6 @@
 # Hi There!
 #### If you are looking for quick custom 3d CAD models for conceptualization and scaling, let's connect!
-#### I will transform your concepts into technical 3D assets to quickly envision and ideate through the design process.
+#### I will transform your concepts into mechanical 3D assets to quickly envision and ideate through the design process.
 
 # Design Preview | Live Design Link
 #### Previews of my work are available at my website...
