@@ -1,0 +1,188 @@
+@media (max-width: 1980px) {
+    :root {
+        --font-proportion: 2.5;
+    }
+
+    .navbar-item {
+        width: 6.7rem;
+    }
+
+    .gobackbar-btn-active {
+        font-weight: var(--font-weight-3);
+    }
+
+    .moreinfobar-holder {
+        width: 39.5rem;
+    }
+
+    .moreinfo-item {
+        font-size: calc(8px * var(--font-proportion) / var(--decrease-proportion));
+    }
+
+    #hithere {
+        text-align: right;
+        font-size: calc(32px * var(--font-proportion) / var(--decrease-proportion));
+        font-weight: var(--font-weight-3);
+    }
+
+    #onwhy {
+        margin-top: 5.5rem;
+        text-align: left;
+        font-size: calc(32px * var(--font-proportion) / var(--decrease-proportion));
+        font-weight: var(--font-weight-3);
+    }
+
+    .contact-btn-item-icon {
+        height: 25px;
+        width: 25px;
+    }
+    .contactbarlist {
+        width: 30rem;
+    }
+}
+
+
+@media (max-width: 1124px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+
+    .imgbar img {
+        aspect-ratio: 2 / 3;
+        width: 20rem;
+        border-radius: 100px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+
+    .navbar-item {
+        font-size: calc(8px * var(--font-proportion) / var(--decrease-proportion));
+    }
+
+}
+
+@media (max-width: 900px) {
+    :root {
+        --font-proportion: 2.25;
+    }
+
+    .moreinfobar-holder {
+        width: 29.5rem;
+    }
+}
+
+@media (max-width: 824px) {
+    :root {
+        --font-proportion: 2;
+    }
+
+    .imgbar img {
+        aspect-ratio: 1;
+        width: 17.5rem;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+
+    .moreinfobar-holder {
+        width: 25.5rem;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    :root {
+        --font-proportion: 2;
+    }
+
+    .navbar-item {
+        font-size: calc(8px * var(--font-proportion));
+        font-weight: var(--font-weight-2);
+    }
+
+    .titlebar {
+        top: 40%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        align-items: center;
+    }
+
+    .uppertitle {
+        text-align: center;
+    }
+
+    .titlemorebtn {
+        justify-content: center;
+    }
+
+    .imgbar {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .imgbar img {
+        width: 12.5rem;
+        border-radius: 100px;
+    }
+
+    .contactbar {
+        top: 10%;
+    }
+
+    .contact-btns {
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .feedbackbar {
+        mix-blend-mode: color-burn;
+        backdrop-filter: blur(25px);
+    }
+}
+
+
+@media (max-width: 580px) {
+    :root {
+        --font-proportion: 1.75;
+    }
+
+    .moreinfo {
+        overflow-y: scroll;
+    }
+
+    .moreinfobar-holder {
+        width: 95%;
+        padding: calc((var(--viewport-height) - (var(--viewport-height) * var(--viewport-coverage))) / 2);
+    }
+
+    .titlebar {
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
+    .contactbarlist {
+        width: 15rem;
+        aspect-ratio: 3 / 5;
+    }
+
+    .contactbarlist-fb:nth-child(2),
+    .contactbarlist-in:nth-child(2),
+    .contactbarlist-email:nth-child(2),
+    .contactbarlist-discord:nth-child(2) {
+        gap: 0.5rem;
+    }
+
+    .fb-link,
+    .in-link,
+    .email-link,
+    .discord-name {
+        font-size: calc(7px * var(--font-proportion));
+        text-align: right;
+    }
+}
