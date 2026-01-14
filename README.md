@@ -1,5 +1,5 @@
 # Hi There!
-#### I design quick custom 3d CAD models for conceptualization and scaling, let's connect!
+#### I design quick custom 3d CAD models for conceptualization and scaling; I look forward to connect!
 #### I will transform your concepts into mechanical 3D assets to qvision and ideate through the design procesuickly ens.
 
 # Design Preview | Live Design Link
